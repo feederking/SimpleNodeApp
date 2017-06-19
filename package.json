@@ -4,6 +4,7 @@
   "description": "Simple Node Application",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/feederking/SimpleNodeApp/issues"
   },
-  "homepage": "https://github.com/feederking/SimpleNodeApp#readme"
+  "homepage": "https://github.com/feederking/SimpleNodeApp#readme",
+  "dependencies": {
+    "anytv-node-importer": "0.0.7",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "method-override": "^2.3.9",
+    "mysql": "^2.13.0",
+    "nodemon": "^1.11.0"
+  }
 }
